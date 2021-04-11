@@ -1,8 +1,7 @@
 <div class="container">
-  <h1 class="row justify-content-md-center mt-4 mb-4" >Titles</h1>
-  <div class="row justify-content-md-center">
+  <div class="row justify-content-md-center mt-4">
     <% @articles.each do |article| %>
-      <div class="card mb-2 ml-2 d-inline-flex w-25">
+      <div class="card mb-2 ml-2 d-inline-flex w-25 card-transition">
         <div class="card-body">
           <h5 class="card-title"><%= link_to article.title, article_path(article)%></h5>
           <p class="card-text"><%= article.content %></p>
