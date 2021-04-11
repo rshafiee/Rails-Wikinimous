@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap/scss/bootstrap";
+
+body {
+  background-image: url("https://source.unsplash.com/random");
+  background-size: cover;
+}
+a {
+  text-decoration: none !important;
+  color: #1e7e34;
+}
+
+a:hover {
+  color: #1e7e34;
+  opacity: 0.6;
+  text-decoration: none;
+}
